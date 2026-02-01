@@ -6,7 +6,6 @@ import io
 # --- CONFIGURATION ---
 st.set_page_config(page_title="Immo Scan v2", page_icon="🏠", layout="wide")
 
-# Initialisation du cache session pour éviter les rechargements inutiles
 if "cache_dvf" not in st.session_state:
     st.session_state.cache_dvf = {}
 
@@ -158,7 +157,7 @@ if adresse:
             )
         with s2:
             st.markdown(
-                "[**Indicateurs Loyers**](https://www.data.gouv.fr/datasets/carte-des-loyers-indicateurs-de-loyers-dannonce-par-commune-en-2025)  \nEstimations du Ministère Ministère de la Transition écologique."
+                "[**Indicateurs Loyers**](https://www.data.gouv.fr/datasets/carte-des-loyers-indicateurs-de-loyers-dannonce-par-commune-en-2025)  \nEstimations du Ministère de la Transition écologique."
             )
     else:
         st.error(
