@@ -158,7 +158,7 @@ if adresse:
             )
         with s2:
             st.markdown(
-                "[**Indicateurs Loyers**](https://www.data.gouv.fr/fr/datasets/carte-des-loyers-indicateurs-de-loyers-dhabitation-prives-par-commune/)  \nEstimations du Ministère du Logement."
+                "[**Indicateurs Loyers**](https://www.data.gouv.fr/datasets/carte-des-loyers-indicateurs-de-loyers-dannonce-par-commune-en-2025)  \nEstimations du Ministère Ministère de la Transition écologique."
             )
     else:
         st.error(
